@@ -1,0 +1,40 @@
+{
+  "name": "tag-cloud",
+  "version": "1.0.0",
+  "description": "Representing data in tag cloud form",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --env prod",
+    "start": "webpack-dev-server --mode development --open --hot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/archizip/tag-cloud.git"
+  },
+  "author": "Yurii Yudkin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/archizip/tag-cloud/issues"
+  },
+  "homepage": "https://github.com/archizip/tag-cloud#readme",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "css-loader": "^2.1.0",
+    "html-webpack-plugin": "^3.2.0",
+    "less": "^3.9.0",
+    "less-loader": "^4.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-server": "^3.1.14"
+  },
+  "dependencies": {
+    "prop-types": "^15.6.2",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-router-dom": "^4.3.1"
+  }
+}
